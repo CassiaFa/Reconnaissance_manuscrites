@@ -1,17 +1,8 @@
----
-created: 2022-03-23T12:41:36 (UTC +01:00)
-tags: []
-source: https://simplonline.co/briefs/f5603589-2cdb-4227-94d3-12cc13b42f3d
-author: 
----
-
 # Classification des chiffres manuscrites
 
 ![](https://simplonline.co/_next/image?url=https%3A%2F%2Fsimplonline-v3-prod.s3.eu-west-3.amazonaws.com%2Fmedia%2Fimage%2Fpng%2Ff9abcac9-1e38-4c24-b681-7f46d393fe9c.png&w=1280&q=75)
 
-- [Fabio](fabio.ipynb)
-- Morgan
-- [Romain](Romain.ipynb)
+Projet réalisé avec Romain et Morgan.
 
 ## Partie 1 : Base de données, Analyse et Préparation
 

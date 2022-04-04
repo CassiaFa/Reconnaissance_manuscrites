@@ -5,16 +5,58 @@
 Projet réalisé avec Romain et Morgan.
 
 ## Table des matières
-1. [Principe du CNN](#CNN)
+1. [Organisation du répertoire](#OR)
+2. [Principe du CNN](#CNN)
     1. [Partie 1 : Réseau de neurones](#RN)
     2. [Partie 2 : Convolution Neural Network (CNN)](#CNN2)
-2. [Context Pédagogique](#ContextPedagogique)
+3. [Context Pédagogique](#ContextPedagogique)
     1. [Partie 1 : Base de données, Analyse et Préparation](#P1)
     2. [Partie 2 : Architecture CNN sur Tensorflow](#P2)
     3. [Partie 3 : Tester l’efficacité du modèle](#P3)
-3. [Original repository](#origin)
+4. [Original repository](#origin)
 
-# Principe du CNN <a id="CNN"></a>
+## Organisation du répertoire <a id="OR"></a>
+```
+.
+├───app_digit.py
+├───fabio.ipynb
+├───README.md
+├───Dataset
+│   ├───testing
+│   │   ├───0
+│   │   ├───1
+│   │   ├───2
+│   │   ├───3
+│   │   ├───4
+│   │   ├───5
+│   │   ├───6
+│   │   ├───7
+│   │   ├───8
+│   │   └───9
+│   └───training
+│       ├───0
+│       ├───1
+│       ├───2
+│       ├───3
+│       ├───4
+│       ├───5
+│       ├───6
+│       ├───7
+│       ├───8
+│       └───9
+├───model_CNN
+├───rsc
+│   └───app.png
+└───test_manuscrit
+```
+
+### Application reconnaissance manuscrite
+
+L'application **app_digit.py**, est une application développer avec tkinter qui met en oeuvre un canva sur lequel on peut dessiner avec la souris. Deux boutons sont présents, le premier (*effacer*), permet de reinitialiser le canva pour rattraper un dessin raté. Le second (*valider*), permet de valider le dessin et de réaliser une prédiction qui apparaitra en bas de l'interface.
+
+![L'application](./rsc/app.png)
+
+## Principe du CNN <a id="CNN"></a>
 
 ### Partie 1 : Réseau de neurones <a id="RN"></a>
 

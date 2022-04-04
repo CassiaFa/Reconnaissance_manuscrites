@@ -12,7 +12,7 @@ class Draw_digit:
     def __init__(self):
 
         ##----- Chargement du Modèle -----##
-        self.model = tf.keras.models.load_model('./model_CNN')
+        self.model = tf.keras.models.load_model('model_CNN')
 
         ##----- Définition des Variables globales -----##
         self.x1 = 0				# Mémorisation de la position antérieure de la souris
